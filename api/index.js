@@ -9,7 +9,7 @@ app.get("/api", async (req, res) => {
     const { qualityLabel, url, hasVideo, hasAudio } = format;
     const obj = {
       qualityLabel: qualityLabel,
-      url: url,
+      downloadUrl: url,
       hasVideo: hasVideo,
       hasAudio: hasAudio,
     };
