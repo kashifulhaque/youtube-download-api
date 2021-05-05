@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ytdl-core": "^4.7.0"
+  },
+  "license": "MIT"
+}
